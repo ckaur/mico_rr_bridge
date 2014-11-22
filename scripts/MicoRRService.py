@@ -26,13 +26,6 @@ service MicoJoint_Interface
 option version 0.5
 
 object Mico
-property double[] joint_positions
-property double[] joint_velocities
-property double[] joint_torques
-property double[] endeffector_positions
-property double[] endeffector_orientations
-property double[] endeffector_twists
-property double[] endeffector_wrenches
 
 function void home_arm()
 function void start()
